@@ -4,10 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
 numpy = "*"
-scikit-learn = "*"
 jupyterlab = "*"
+pandas = "*"
+scikit-learn = "*"
+matplotlib = "*"
+xgboost = "*"
+lightgbm = "*"
+joblib = "*"
+python-dotenv = "*"
+google-cloud-bigquery = "*"
+google-cloud-storage = "*"
 
 [dev-packages]
 
